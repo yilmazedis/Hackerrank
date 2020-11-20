@@ -84,7 +84,7 @@ if __name__ == "__main__":
 			a = int(query[3])
 			b = int(query[4])
 
-			value = a**b + (a + 1)**b + (b + 1)**a
+			value = a**b + (a + 1)**b + (b + 1)**a # This calculation should be converted to dynamic
 			
 			putValue(graph, r, t, value)
 
